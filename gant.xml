@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Aךעם" company="" webLink="http://" view-date="2015-02-22" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Aךעם" company="" webLink="http://" view-date="2015-02-22" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7" locale="iw_IL">
     <description/>
-    <view zooming-state="default:6" id="gantt-chart">
-        <field id="tpd3" name="Name" width="56" order="0"/>
-        <field id="tpd4" name="Begin date" width="21" order="1"/>
-        <field id="tpd5" name="End date" width="21" order="2"/>
-        <option id="taskLabelUp" value="resources"/>
-        <option id="taskLabelDown" value="name"/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="38" order="0"/>
+        <field id="tpd4" name="Begin date" width="30" order="1"/>
+        <field id="tpd5" name="End date" width="30" order="2"/>
         <option id="color.recent"><![CDATA[#000000 #000000 #000000 #000000 #000000 #cc0000 #00ff00 #3300cc #3300cc #ffff00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="70" order="0"/>
-        <field id="1" name="Default role" width="29" order="1"/>
+        <field id="0" name="Name" width="51" order="0"/>
+        <field id="1" name="Default role" width="48" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,7 +35,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="entry+correction" color="#ffff00" meeting="false" start="2015-03-08" duration="7" complete="0" expand="true"/>
-        <task id="1" name="RSi+correction" color="#3300cc" meeting="false" start="2015-03-08" duration="7" complete="0" expand="true"/>
+        <task id="1" name="RSi+correction" color="#3300cc" meeting="false" start="2015-03-08" duration="7" complete="100" expand="true"/>
         <task id="2" name="report+tst" color="#00ff00" meeting="false" start="2015-03-08" duration="7" complete="0" expand="true">
             <notes><![CDATA[-bla bla]]></notes>
         </task>
@@ -351,9 +349,9 @@
         <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="190" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="72" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="72" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="589" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="471" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="470" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
